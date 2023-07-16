@@ -19,6 +19,9 @@ class _profile_screenState extends State<profile_screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 34, 36, 161),
+      ),
       
       body: Text(userEmail),
     );
